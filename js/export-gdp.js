@@ -10,7 +10,7 @@ $( '#export' ).highcharts({
     useHTML: true
   },
   title: {
-    text: 'Imports of goods and services (% of GDP)'
+    text: 'Exports of goods and services (% of GDP)'
   },
   subtitle: {
     text: 'Source: https://databank.worldbank.org'
