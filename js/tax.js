@@ -55,7 +55,17 @@ Highcharts.chart('tax', {
     color: Highcharts.getOptions().colors[0],
     type: 'scatter',
     data: [ // x, y positions where 0 is the first category
-      
+      [0,105000],
+      [0,203500],
+      [1,99000],
+      [1,181500],
+      [2,105000],
+      [2,192500],
+      [3,105000],
+      [3,192500],
+      [4,82500],
+      [4,151250]
+
     ],
     marker: {
       fillColor: 'white',
