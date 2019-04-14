@@ -1,11 +1,11 @@
-Highcharts.chart('canada', {
+Highcharts.chart('US', {
 
   chart: {
     type: 'item'
   },
 
   title: {
-    text: 'Canada'
+    text: 'United States'
   },
 
   subtitle: {
@@ -20,12 +20,12 @@ Highcharts.chart('canada', {
     name: '',
     keys: ['name', 'y', 'color', 'label'],
     data: [
-      ['Services, value added', 65, '#EB5E55', 'SAD'],
-      ['Industry (including construction)', 28, '#3A3335', 'IVA'],
-      ['Imports of goods and services',33, '#D81E5B', 'Import'],
-      ['Exports of goods and services',31, '#392061', 'Export'],
-      ['Manufacturing, value added', 10, '#9883E5', 'MVA'],
-      ['Agriculture, forestry, and fishing, value added',1, '#C6D8D3', 'AFFVA']
+      ['Services, value added', 76, '#441151', 'SAD'],
+      ['Industry (including construction)', 20, '#883677', 'IVA'],
+      ['Imports of goods and services',16, '#CA61C3', 'Import'],
+      ['Exports of goods and services',13, '#EE85B5', 'Export'],
+      ['Manufacturing, value added', 12, '#FF958C', 'MVA'],
+      ['Agriculture, forestry, and fishing, value added',1, '#FFC4EB', 'AFFVA']
     ],
     dataLabels: {
       enabled: true,

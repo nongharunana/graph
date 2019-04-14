@@ -13,7 +13,7 @@ Highcharts.chart('brazil', {
   },
 
   legend: {
-    labelFormat: '{name} <span style="opacity: 0.4">{y}</span>'
+    labelFormat: '{name} <span style="opacity: 0.6">{y} (% of GDP)</span>'
   },
 
   series: [{
